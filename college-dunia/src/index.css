@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    margin-top: -22px;
+}
+
+.main-heading{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+.main-heading img{
+    height: 90px;
+}

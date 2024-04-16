@@ -1,0 +1,104 @@
+/* Style for table heading */
+.table-heading{
+    background-color: #88bdc4;
+    text-align: left;
+}
+
+
+.rank-width{
+    width: 80px;
+}
+
+.college-width{
+    width: 500px;
+}
+
+.course-width{
+    width: 130px;
+}
+.placement-width{
+    width: 140px;
+}
+
+.rating-width{
+    width: 145px;
+}
+
+.ranking-width{
+    width: 250px;
+}
+
+
+/* Style for  Cell */
+.heading{
+    font-weight: bold;
+    justify-content: center;
+    color: rgb(79, 184, 221);
+}
+
+.college-list-table, td, th{
+    border: 0.1px solid green;
+    border-collapse: collapse;
+}
+
+
+.fees .heading, .placement .heading{
+    color:rgb(62, 174, 141);
+}
+
+
+.heading-font-size{
+    font-size: 1rem;
+}
+
+.small-desc{
+    font-size: .85rem;
+    margin-top: -15px;
+}
+
+.college{
+    display: flex;
+   border: none;
+}
+
+.college .left{
+    margin-right: 10px;
+}
+
+.heading:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+td h3, td p, td span{
+    margin-top: 0px;
+    text-align: center;
+}
+
+.college{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.left img{
+    height: 60px;
+    width: 60px;
+}
+
+/* style for featured row */
+.featured{
+    background-color: #fff3eb;
+}
+
+
+/* college featured */
+.college-featured {
+    background-color: red;
+    border-radius: 13px;
+    padding: 5px;
+    z-index: 11;
+    position: relative;
+    left: 30%;
+    top: -5px;
+    font-size: .8rem;
+}
